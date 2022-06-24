@@ -1,0 +1,46 @@
+.tbl {
+    border: 2px solid #ccc;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 12px auto;
+    border-style: groove;
+}
+
+.tbl thead tr th {
+
+    border-right-width: 2px;
+    /* border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden; */
+    padding: 6px 4px;
+    border-bottom: 2px solid blue;
+    color: red;
+    font-family: Arial;
+    background-color: antiquewhite;
+    text-align: left;
+
+
+
+}
+
+
+
+.tbl tbody tr td {
+    font-size: 14px;
+    font-family: Arial;
+    color: #000;
+    border-style: none;
+    text-align: left;
+    padding-left: 6px;
+    border-bottom: 1px;
+    border-bottom-color: #000;
+    border-top-color: blue;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tbl tbody tr:last-child td {
+    border-bottom: none;
+}
