@@ -44,3 +44,17 @@
 .tbl tbody tr:last-child td {
     border-bottom: none;
 }
+
+.action a {
+    text-decoration: none;
+    margin-right: 9px;
+    /* font-style: normal; */
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
